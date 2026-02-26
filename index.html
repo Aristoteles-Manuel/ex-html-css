@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela de logint</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <link rel="stylesheet" href="media1-query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+
+            </div>
+            <div id="form">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente</p>
+                <form action="login.php" method="post">
+                    <div class="campo">
+                        <span class="material-icons md-24">person</span>
+                        <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
+                       <label for="ilogin">e-mail</label>
+                    </div>
+
+                   <div class="campo">
+                    <span class="material-icons md-24">vpn_key</span>
+                        <input type="password" name="login" id="ilogin" placeholder="sua senha" autocomplete="current-password"  required minlength="8" maxlength="30">
+                        <label for="isenha">senha</label>
+                    </div>
+                    
+
+                    <input type="submit" value="Enviar">
+
+                    <a href="esqueci.html" class="botao">Esqueci a senha <span class="material-icons md-24">email</span></a>
+
+                </form>
+                
+
+            </div>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
